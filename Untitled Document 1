@@ -1,0 +1,138 @@
+ 1  sudo apt-get update
+    2  ls
+    3  subl .
+    4  rvm gemset list
+    5  rvm gemset use simple_cms
+    6  gemset use simple_cms
+    7  rvm gem use simple_cms
+    8  cd ..
+    9  rvm list
+   10  rvm gemset list
+   11  rvm gemset use saa
+   12  rvm gemset list
+   13  rails -v
+   14  sudo apt install curl
+   15  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+   16  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+   17  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+   18  sudo apt-get update
+   19  sudo apt-get install git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs yarn
+   20  sudo apt-get update
+   21  sudo apt-get install mysql-server
+   22  sudo mysql_secure_installation utility
+   23  mysql
+   24  sudo ufw enable
+   25  sudo ufw allow mysql
+   26  sudo systemctl start mysql
+   27  sudo systemctl enable mysql
+   28  sudo systemctl restart mysql
+   29  mysql
+   30  sudo mysql -u root
+   31  mysql -u root -p
+   32  sudo mysql -u root
+   33  mysql -u newuser -p
+   34  sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+   35  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+   36  curl -sSL https://get.rvm.io | bash -s stable
+   37  source ~/.rvm/scripts/rvm
+   38  rvm install 2.5.8
+   39  gem install bundler
+   40  git config --global color.ui true
+   41  git config --global user.name "sa1234sh"
+   42  git config --global user.email "sathish.k1515@gmail.com"
+   43  ssh-keygen -t rsa -b 4096 -C "sathish.k@gmail.com"
+   44  cat ~/.ssh/id_rsa.pub
+   45  git clone https://github.com/sa1234sh/installatin-documents.git
+   46  ls
+   47  cd installatin-documents/
+   48  ls
+   49  git status
+   50  branch
+   51  git branch
+   52  git checkout branch_2
+   53  ls
+   54  git status
+   55  git diff
+   56  get commit -m .
+   57  git commit -m .
+   58  git status
+   59  git stash
+   60  git checkout branch_2
+   61  git commit -m .
+   62  git stash apply
+   63  ls
+   64  git branch
+   65  git diff
+   66  git commit -m .
+   67  git add .
+   68  git commit -m .
+   69  git push origin branch_2
+   70  git status
+   71  cd
+   72  sudo install vlc
+   73  ls
+   74  rvm list
+   75  rvm gemset create simple_cms
+   76  rvm gemset list
+   77  rvm gemset use simple_cms
+   78  rvm gemset list
+   79  rvm list
+   80  gem install rails -v '5.0.0' 
+   81  ruby -v
+   82  rails -v
+   83  rvm list
+   84  rvm gemset list
+   85  rails new simple_cms -d mysql
+   86  bundle install
+   87  bundle exec spring binstub --all
+   88  ls
+   89  cd simple_cms/
+   90  ls
+   91  bundle exec spring binstub --all
+   92  bundle install
+   93  gem install mysql2 -v '0.4.10' --source 'https://rubygems.org/'
+   94  sudo apt-get install libmysqlclient-dev
+   95  bundle install
+   96  rails -v
+   97  rvm gemset list
+   98  rvm gemset use default
+   99  rvm gemset list
+  100  ruby -v
+  101  rails new saa -d mysql
+  102  sudo apt install ruby-railties
+  103  rails -v
+  104  rails new saa -d mysql
+  105  ruby -v
+  106  rails -v
+  107  rvm gemset list
+  108  rvm gemset use
+  109  rvm gemset use simple_cms
+  110  rails -v
+  111  rvm gemset create saa
+  112  rvm gemset list
+  113  rvm gemset use saa
+  114  rvm gemset list
+  115  rails new saa -v mysql
+  116  rails new saa -d mysql
+  117  gem install rails -v '4.1.0'
+  118  rails -v
+  119  bundle install
+  120  ls
+  121  cd
+  122  ls
+  123  cd simple_cms/
+  124  rvm gemset list
+  125  rvm gemset use simple_cms
+  126  ls
+  127  rvm list
+  128  rvm gemset list
+  129  rails -v
+  130  rails db:create
+  131  mysql -u username -p
+  132  mysql -u root -p
+  133  mysql -u user_name -p
+  134  history
+  135  rails db:create
+  136  mysql -u newuser -p
+  137  rails db:schema:dump
+
